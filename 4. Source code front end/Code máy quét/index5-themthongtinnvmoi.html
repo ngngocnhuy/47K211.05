@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index5-themthongtinnvmoi.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Aldrich:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,700;1,100&display=swap"
+    />
+  </head>
+  <body>
+    <div class="div1" id="container">
+      <!-- <div class="mi-bn-qut1">Mời bạn quét vân tay để chấm công!</div> -->
+      <img class="fingerprint-icon1" alt="" src="./public/fingerprint1.svg" />
+
+      <img class="fingerprint-icon2" alt="" src="./public/fingerprint2.svg" />
+
+      <img class="item" alt="" src="./public/rectangle-32.svg" />
+
+      <button class="inner" autofocus id="rectangleButton"></button>
+      <button class="rectangle-button" autofocus id="rectangleButton1"></button>
+      <button class="child1" autofocus></button>
+      <img class="rectangle-icon" alt="" src="./public/rectangle-41@2x.png" />
+
+      <button class="child2" autofocus></button>
+      <button class="child3" autofocus></button>
+      <button class="child4" autofocus></button>
+      <div class="quay-li">Quay lại</div>
+      <div class="s-ti-khon">Số tài khoản ngân hàng</div>
+      <div class="mc-lng">Mức Lương</div>
+      <div class="chc-v">Chức vụ</div>
+      <div class="tn-nhn-vin">Tên nhân viên</div>
+      <div class="m-nhn-vin">Mã nhân viên</div>
+      <div class="xc-nhn">Xác nhận</div>
+      <i class="bn-quyn-47k211051"
+        >@ Bản quyền: 47K211.05 - Trường Đại Học Kinh Tế - Đại Học Đà Nẵng</i
+      >
+    </div>
+
+    <script>
+      var rectangleButton = document.getElementById("rectangleButton");
+      if (rectangleButton) {
+        rectangleButton.addEventListener("click", function (e) {
+          window.location.href = "./index4-vantaynvmoi.html";
+        });
+      }
+      
+      var rectangleButton1 = document.getElementById("rectangleButton1");
+      if (rectangleButton1) {
+        rectangleButton1.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var container = document.getElementById("container");
+      if (container) {
+        container.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      </script>
+  </body>
+</html>

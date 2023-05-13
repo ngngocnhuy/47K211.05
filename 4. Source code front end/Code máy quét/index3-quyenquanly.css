@@ -1,0 +1,75 @@
+.bn-quyn-47k211054 {
+  position: absolute;
+  top: 928px;
+  /* left: 724px; */
+  display: flex;
+  font-weight: 100;
+  align-items: center;
+  justify-content: center;
+  /* width: 1092px; */
+  right: 20px;
+  height: 28px;
+}
+.image-3-icon2 {
+  position: absolute;
+  top: 23px;
+  left: calc(50% - 331.5px);
+  width: 662px;
+  height: 333px;
+  opacity: 0.98;
+}
+.child6 {
+  position: absolute;
+  top: 387px;
+  left: calc(50% - 284px);
+  border-radius: 27.55px;
+  width: 619px;
+  height: 423px;
+}
+.mi-xc-nhn {
+  position: absolute;
+  top: 630px;
+  left: calc(50% - 238px);
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-aldrich);
+  color: var(--light-palette-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 530px;
+  height: 121px;
+}
+.fingerprint-icon4 {
+  position: absolute;
+  height: 83.52%;
+  width: 75.53%;
+  top: 9.33%;
+  right: 10.33%;
+  bottom: 7.15%;
+  left: 14.14%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fingerprint2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 406px;
+  left: calc(50% - 78px);
+  width: 209px;
+  height: 193px;
+}
+.div3 {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 986px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
